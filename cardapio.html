@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardapio</title>
+ 
+  <link rel="icon" type="image/png" href="./assets/h4.jpeg"/>
+
+  <style>
+    body{
+      background-color: #121215;
+    }
+
+    h1 {
+      color:  #ffff;
+      display: flex;
+      justify-content: center;
+      text-shadow: 2px 2px black;
+    }
+
+    h4 {
+      text-shadow: 2px 2px black;
+      color: #ffff;
+      background-color: rgba(252, 164, 0, 0.76);
+      padding: 10px;
+      display: flex;
+      justify-content: left;
+      width: 1000px;
+    }
+    
+    h2 {
+      display: flex;
+      justify-content: center;
+      color: #ffff;
+      text-decoration: none
+    }
+
+    .list {
+      background-color: rgba(252, 164, 0, 0.76);
+      width: 900px;
+      justify-content: left;
+    }
+
+    .list2 {
+      justify-content: center;
+      width: 98.5%;
+    }
+     
+    @media (max-width: 768px) {}
+  :root {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr;
+    grid-template-areas: 
+    "profile"
+    "timeline";
+  }
+
+  ::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9e9ea0;
+}
+  
+  </style>
+</head>
+<body>
+  <h1>Cardapio</h1>
+  
+  <div style="display: flex; align-items: center;">
+  <img src="./assets/h1.jpeg" alt="imagem do bueguer tradicional" style="width: 100px; height: auto;">
+  <h4 style="margin-left: 20px;">TRADICIONAL: pão brioche, carne 100g, mussarela, alface, tomate, cheddar cremoso - Valor: R$15,99</h4>
+</div>
+
+<hr>
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/h3.jpeg" alt="imagem do chicken salad" style="width: 100px; height: auto;">
+<h4 style="margin-left: 20px;">CHICKEN SALAD: pão brioche, chicken crocante,alface,tomate,mussarela, cream cheesse: valor:14,99</h4>
+</div>
+<hr>
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/h4.jpeg" alt="imagem do bacon burguer" style="width: 100px; height: auto;">
+<h4 style="margin-left: 20px;">BACON BURGER: pão brioche,carne 100g,bacon,cheddar cremoso,alface,tomate: valor: 17,99</h4>
+</div>
+<hr>
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/h2.jpeg" alt="imagem do burguer duas carnes" style="width: 100px; height: auto;">
+<h4 style="margin-left: 20px;" >2 CARNES PESANDO 100g CADA: pão brioche,2 carnes 100g,cebola caramelizada,cheddar cremoso,queijo mussarela: valor: 19,99</h4>
+</div>
+<hr>
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/h5.jpeg" alt="imagem do cupim burguer" style="width: 100px; height: auto;">
+<h4 style="margin-left: 20px;">CUPIM BURGUER: pão brioche,carne 100g,cupim ao molho madeira,molho barbecue,cebola caramelizada,cream cheese: valor: 19,99</h4>
+</div>
+
+
+<h1>Adicionais</h1>
+
+<h4 class="list2">Cheddar cremoso: R$ 3,50 <br>
+Cream cheese: R$ 3,50 <br>
+Cupim 100g: R$ 5,00 <br>
+Bacon: R$ 4,00 </h4>
+
+<h1>Refrigerantes</h1>
+
+<div style="display: flex; align-items: center;">
+  <img src="./assets/refri.png" alt="foto dos refrigenrantes, coca-cola,guaraná e fanta" style="width: 100px; height: auto;">
+<h4 class="list" style="margin-left: 20px;">Guaraná antártica 350ml R$: 5,50<br>
+Fanta 350ml R$: 5,50<br>
+Coca-Cola 350ml R$: 5,50</h4>
+</div>
+
+
+<h2>Faça seu pedido clicando <a href="https://api.whatsapp.com/send?phone=5581996022354&text=Ol%C3%A1%20%2C%20gostaria%20de%20degustar%20seus%20hamb%C3%BArgueres" target="_blank" style="text-decoration: none; color: #ffff;">"aqui"</a> ❤️</h2>
+</body>
+</html>
