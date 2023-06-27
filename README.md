@@ -8,7 +8,7 @@
 
 
 ## 🖥️ Projeto
-Esse é um projeto responsivo de um cardapío para hamburgueria.
+Esse é um projeto responsivo de um cardapio para hamburgueria.
 ## 🛸 Tecnologia
 Projeto desenvolvido por mim para uma hamburgueria.:
 - HTML
