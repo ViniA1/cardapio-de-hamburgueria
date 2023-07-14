@@ -72,6 +72,22 @@
 ::-webkit-scrollbar-thumb {
   background-color: #9e9ea0;
 }
+
+@keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .jump {
+    animation: jump 1s infinite;
+  }
   
   </style>
 </head>
@@ -111,7 +127,9 @@
 
 <h1>Adicionais</h1>
 
-<h4 class="list2">Cheddar cremoso: R$ 3,50 <br>
+<h4 class="list2">
+Batata frita: R$ 6,00 <br>
+Cheddar cremoso: R$ 3,50 <br>
 Cream cheese: R$ 3,50 <br>
 Cupim 100g: R$ 5,00 <br>
 Bacon: R$ 4,00 </h4>
@@ -134,6 +152,6 @@ Fanta 1L R$: 9,00<br>
 Coca-Cola 1L R$: 9,00</h4>
 </div>
 
-<h2>Faça seu pedido clicando <a href="https://api.whatsapp.com/send?phone=5581996022354&text=Ol%C3%A1%20%2C%20gostaria%20de%20degustar%20seus%20hamb%C3%BArgueres" target="_blank" style="text-decoration: none; color: #ffff;">"aqui"</a> ❤️</h2>
+<h2 class="jump">Faça seu pedido clicando <a href="https://api.whatsapp.com/send?phone=5581996022354&text=Ol%C3%A1%20%2C%20gostaria%20de%20degustar%20seus%20hamb%C3%BArgueres" target="_blank" style="text-decoration: none; color: #ffff;">"aqui"</a> ❤️</h2>
 </body>
 </html>
